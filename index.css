@@ -54,7 +54,7 @@ background-color: rgb(255, 255, 255);
 border-radius: 25px;
 box-shadow: 2px 3px 10px;margin-right: 10px;
 width: 370px;
-height: 500px;
+height: fit-content;
 
 
 
@@ -95,7 +95,7 @@ font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100%;
+   height: fit-content;
 }
 .button{
     background-color: #2500f9;
@@ -109,4 +109,14 @@ font-size: 25px;
 .trail{
  color: #765dff;
  cursor: pointer;
+}
+
+.text_info p{
+    margin-bottom: 40px;
+}
+.text_info .button{
+    margin-bottom: 40px;
+}
+.trail{
+    margin-bottom: 40px;
 }
