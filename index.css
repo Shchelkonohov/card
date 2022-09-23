@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body {
     display: flex;
     justify-content: center;
@@ -64,7 +65,7 @@ body {
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
-    box-shadow: 2px 3px 10px;
+    box-shadow: 1px 1px 20px;
     margin-right: 10px;
     width: 370px;
     height: fit-content;
@@ -72,7 +73,7 @@ body {
 
 .card:hover {
     background-color: rgb(242, 249, 255);
-    box-shadow: 3px 4px 15px;
+    box-shadow: 2px 2px 20px;
     transition: 0.5s;
 }
 
@@ -125,6 +126,8 @@ button {
     font-family: 'Poppins', sans-serif;
     color: white;
     margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .trail {
